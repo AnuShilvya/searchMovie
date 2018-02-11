@@ -1,0 +1,14 @@
+<html>
+	<head>
+		<script>
+			function doSearch() {
+				var searchInputText = document.getElementById("searchInputBox").value;
+				window.open('https://www.google.co.in/search?q=' + searchInputText + ' Movie Trailer and Poster', '_blank');
+			}
+		</script>
+	</head>
+	<body>
+		<input autocomplete="on" type="text" id="searchInputBox"></input>
+		<button onclick="doSearch()">Search Movie Trailer & Poster</button>
+	</body>
+</html>
